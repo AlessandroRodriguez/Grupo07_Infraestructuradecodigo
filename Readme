@@ -1,0 +1,20 @@
+# Proyecto
+
+Este proyecto consiste en automatizar la publicación de un blog para que cada vez que escribas un nuevo artículo se publique de forma automática en tu sitio web. La idea es que no tengas que preocuparte por servidores, configuraciones complicadas o gestores de contenido pesados, sino que todo funcione de manera rápida y sencilla.
+
+Primero se crea un blog básico con **Jekyll** en la computadora. Luego se sube ese blog a un repositorio en **GitHub**. A partir de ahí, cada vez que agregues un artículo o hagas un cambio, se activa un flujo automático que se encarga de preparar tu sitio y dejarlo listo en internet.
+
+El sitio se guarda y se muestra desde un espacio de almacenamiento en **Amazon S3**, que actúa como el lugar donde vive tu blog. Todo el proceso es automático: el blog se compila, se generan los archivos y en pocos segundos se actualiza la página.
+
+Para hacerlo posible se usan herramientas como:
+- **Amazon Web Services (AWS)** para alojar el sitio  
+- **Jekyll** para crear el blog  
+- **Terraform** para preparar la infraestructura  
+- **Git y GitHub** para guardar el código  
+- **GitHub Actions** para que todo se publique automáticamente
+
+## Integrantes
+- Kristel Rivera Chamorro  
+- Alessandro Rodriguez Ruiz  
+- Brad Barrios Capa  
+- MC Breck Ponce Vazques
